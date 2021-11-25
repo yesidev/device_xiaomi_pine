@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/pine/device.mk)
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Official
+PEX_BUILD_TYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
 PRODUCT_NAME := aosp_pine
