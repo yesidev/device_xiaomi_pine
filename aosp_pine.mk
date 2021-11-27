@@ -15,6 +15,9 @@ $(call inherit-product, vendor/aosp/config/common.mk)
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
 
+# Broken verify
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
 PRODUCT_NAME := aosp_pine
