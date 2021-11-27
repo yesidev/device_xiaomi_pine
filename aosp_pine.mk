@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/pine/device.mk)
 # Broken verify
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
+# Bootanimation res
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
 PRODUCT_NAME := aosp_pine
