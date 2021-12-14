@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The AospExtended Project
+# Copyright (C) 2021 The SparkOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_pine.mk
+    $(LOCAL_DIR)/spark_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_pine-user \
-    aosp_pine-userdebug \
-    aosp_pine-eng
+    spark_pine-user \
+    spark_pine-userdebug \
+    spark_pine-eng

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The AospExtended Project
+# Copyright (C) 2021 The SparkOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,8 +9,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common AospExtended stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit some common SparkOS stuff.
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
@@ -23,7 +23,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
-PRODUCT_NAME := aosp_pine
+PRODUCT_NAME := spark_pine
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7A
